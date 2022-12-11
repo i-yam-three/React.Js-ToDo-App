@@ -13,6 +13,7 @@ function App() {
       <div className="subHeading">
         <br />
         <h2>Hey, Enter Your Remainder 🌝 ☕ </h2>
+    <h6>i_yam_three_</h6>
       </div>
       <div className="input">
         <input value={toDo} onChange={(e)=>setToDo(e.target.value)} type="text" placeholder="🖊️ Add item..." />
@@ -47,7 +48,7 @@ return(       <div className="todo">
       }
       return null
     })}
-<h6>i_yam_three_</h6>
+
       </div>
     </div>
   );
